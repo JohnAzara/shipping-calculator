@@ -1,0 +1,13 @@
+main shipping-calculator
+// John Azara
+echo "# shipping-calculator" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JohnAzara/shipping-calculator.git
+git push -u origin main
+Item name
+Is the item fragile (add in $2.00 if the item is fragile)
+The order total (without shipping)
+The destination to which the item will be shipped (USA, Canada, Australia) 
